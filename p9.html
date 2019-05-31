@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>contabilidad</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="testimonial">
+		
+		<div class="contenedor">
+			<header>
+				<h1>Direccionamiento (Ejercicio 1)</h1>
+			</header>		
+			<section class="main">
+				<p>20XX que nos proporciona nuestra base de datos del direccionamiento de origen, como
+					consecuencia de los registros de costos en la contabilidad, afectando, al mismo tiempo,
+					los centros de costo y las órdenes de direccionamiento, está conformado por:
+				</p>
+				<ul>
+					<li>121252 Servicio de comedor $ 9 000</li>
+					<li>131212 Departamento de almacén de materias primas 5000</li>
+					<li>134002 Gerencia de producción 14500</li>
+					<li>134013 Planta de proceso núm. 15000</li>
+					<li>134023 Planta de proceso núm. 24500</li>
+					<li>134033 Planta de proceso núm. 34000</li>
+					<li>134043 Planta de proceso núm. 43500</li>
+					<li>136232 Departamento de Soldadura 9000</li>
+					<li>Total $54500</li>
+				</ul>
+				<ul>
+					<li>Centro de costo: 134002 Gerencia de Producción</li>
+					<li>Cuenta Importe</li>
+					<li>50XX Varios conceptos $10000</li>
+					<li>5050 Servicio de energía eléctrica 1500</li>
+					<li>5078 Rentas 3000</li>
+					<li>Total $14500</li>
+				</ul>
+				<table>
+					<tr>
+						<td class="factor" colspan="3">Factor de aplicacion de energia electrica</td>
+					</tr>
+					<tr>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">Costo total de energia electrica</td>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">1500</td>
+						<td class="operacion" rowspan="2">0.09091</td>
+					</tr> 
+					<tr>
+						<td class="operacion">Consumo total (kw)</td>
+						<td class="operacion">16500</td>
+					</tr>
+				</table>
+				<table>
+					 <tr>
+					 	<td class="cedula1">Centro de costos</td>
+					 	<td class="cedula1">consumo kw</td>
+					 	<td class="cedula1">factor</td>
+					 	<td class="cedula1">aplicación de energia electrica</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">121252</td>
+					 	<td class="cedula1">760</td>
+					 	<td class="cedula1">0.09091</td>
+					 	<td class="cedula1">69.10</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">131212</td>
+					 	<td class="cedula1">805</td>
+					 	<td class="cedula1">0.09091</td>
+					 	<td class="cedula1">73.18</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134002</td>
+					 	<td class="cedula1">357</td>
+					 	<td class="cedula1">0.09091</td>
+					 	<td class="cedula1">35.45</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134013</td>
+					 	<td class="cedula1">4676</td>
+					 	<td class="cedula1">0.09091</td>
+					 	<td class="cedula1">425.09</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134023</td>
+					 	<td class="cedula1">3254</td>
+					 	<td class="cedula1">0.09091</td>
+					 	<td class="cedula1">295.82</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134033</td>
+					 	<td class="cedula1">2838</td>
+					 	<td class="cedula1">0.09091</td>
+					 	<td class="cedula1">258.00</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134043</td>
+					 	<td class="cedula1">2490</td>
+					 	<td class="cedula1">0.09091</td>
+					 	<td class="cedula1">226.36</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">136232</td>
+					 	<td class="cedula1">1320</td>
+					 	<td class="cedula1">0.09091</td>
+					 	<td class="cedula1">120</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">total</td>
+					 	<td class="cedula1">16500</td>
+					 	<td class="cedula1">0.09091</td>
+					 	<td class="cedula1">1500</td>
+					 </tr>
+				</table>
+				<br>
+				<table>
+					<tr>
+						<td class="factor" colspan="3">Factor de aplicacion de renta</td>
+					</tr>
+					<tr>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">Costo total de renta</td>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">3000</td>
+						<td class="operacion" rowspan="2">2.0</td>
+					</tr> 
+					<tr>
+						<td class="operacion">Superficie total (m2)</td>
+						<td class="operacion">1500</td>
+					</tr>
+				</table>
+				<br>
+				<table>
+					 <tr>
+					 	<td class="cedula1">Centro de costos</td>
+					 	<td class="cedula1">Superficie ocupada</td>
+					 	<td class="cedula1">factor</td>
+					 	<td class="cedula1">aplicación de renta</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">121252</td>
+					 	<td class="cedula1">130</td>
+					 	<td class="cedula1">2</td>
+					 	<td class="cedula1">260</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">131212</td>
+					 	<td class="cedula1">150</td>
+					 	<td class="cedula1">2</td>
+					 	<td class="cedula1">300</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134002</td>
+					 	<td class="cedula1">50</td>
+					 	<td class="cedula1">2</td>
+					 	<td class="cedula1">100</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134013</td>
+					 	<td class="cedula1">330</td>
+					 	<td class="cedula1">2</td>
+					 	<td class="cedula1">660</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134023</td>
+					 	<td class="cedula1">220</td>
+					 	<td class="cedula1">2</td>
+					 	<td class="cedula1">440</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134033</td>
+					 	<td class="cedula1">200</td>
+					 	<td class="cedula1">2</td>
+					 	<td class="cedula1">400</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134043</td>
+					 	<td class="cedula1">250</td>
+					 	<td class="cedula1">2</td>
+					 	<td class="cedula1">500</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">136232</td>
+					 	<td class="cedula1">170</td>
+					 	<td class="cedula1">2</td>
+					 	<td class="cedula1">340</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">total</td>
+					 	<td class="cedula1">1500</td>
+					 	<td class="cedula1">2</td>
+					 	<td class="cedula1">3000</td>
+					 </tr>
+				</table>
+				<br>
+				<table>
+					<tr>
+						<td class="cedula1" colspan="10">Direccionamiento de origen Marzo 20XX(pesos)</td>
+					</tr>
+					<tr>
+						<td class="cedula2" colspan="2"></td>
+						<td class="cedula2" colspan="8">Centro de costos</td>
+					</tr>
+					<tr>
+						<td class="cedula3" colspan="2"></td>
+						<td class="cedula3" colspan="4">servicio</td>
+						<td class="cedula3" colspan="4">productivo</td>
+					</tr>
+					<tr>
+						<td class="cedula4">cuenta</td>
+						<td class="cedula4">total</td>
+						<td class="cedula4">121252</td>
+						<td class="cedula4">131212</td>
+						<td class="cedula4">126232</td>
+						<td class="cedula4">134002</td>
+						<td class="cedula4">134013</td>
+						<td class="cedula4">134023</td>
+						<td class="cedula4">134033</td>
+						<td class="cedula4">134043</td>
+					</tr>
+					<tr>
+						<td class="cedula4">varios conceptos</td>
+						<td class="cedula4">50000</td>
+						<td class="cedula4">9000</td>
+						<td class="cedula4">5000</td>
+						<td class="cedula4">9000</td>
+						<td class="cedula4">10000</td>
+						<td class="cedula4">5000</td>
+						<td class="cedula4">4500</td>
+						<td class="cedula4">4000</td>
+						<td class="cedula4">3500</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Servicio de energia electrica</td>
+						<td class="cedula4">1500</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4">1500</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+					</tr>
+					<tr>
+						<td class="cedula4">Renta</td>
+						<td class="cedula4">3000</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4">3000</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+					</tr>
+					<tr>
+						<td class="cedula4">Total</td>
+						<td class="cedula4">54500</td>
+						<td class="cedula4">9000</td>
+						<td class="cedula4">5000</td>
+						<td class="cedula4">9000</td>
+						<td class="cedula4">14500</td>
+						<td class="cedula4">5000</td>
+						<td class="cedula4">4500</td>
+						<td class="cedula4">4000</td>
+						<td class="cedula4">3500</td>
+					</tr>
+				</table>
+				<br>
+				<table>
+					<tr>
+						<td class="cedula1" colspan="10">Direccionamiento primario Aplicación de los cargos indirectos acumulados del mes de marzo de 20XX a los CCS y CCP (pesos)</td>
+					</tr>
+					<tr>
+						<td class="cedula2" colspan="2"></td>
+						<td class="cedula2" colspan="8">Centro de costos</td>
+					</tr>
+					<tr>
+						<td class="cedula3" colspan="2"></td>
+						<td class="cedula3" colspan="4">servicio</td>
+						<td class="cedula3" colspan="4">productivo</td>
+					</tr>
+					<tr>
+						<td class="cedula4">cuenta</td>
+						<td class="cedula4">total</td>
+						<td class="cedula4">121252</td>
+						<td class="cedula4">131212</td>
+						<td class="cedula4">126232</td>
+						<td class="cedula4">134002</td>
+						<td class="cedula4">134013</td>
+						<td class="cedula4">134023</td>
+						<td class="cedula4">134033</td>
+						<td class="cedula4">134043</td>
+					</tr>
+					<tr>
+						<td class="cedula4">varios conceptos</td>
+						<td class="cedula4">50000</td>
+						<td class="cedula4">9000</td>
+						<td class="cedula4">5000</td>
+						<td class="cedula4">9000</td>
+						<td class="cedula4">10000</td>
+						<td class="cedula4">5000</td>
+						<td class="cedula4">4500</td>
+						<td class="cedula4">4000</td>
+						<td class="cedula4">3500</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Servicio de energia electrica</td>
+						<td class="cedula4">1500</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4">1500</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+					</tr>
+					<tr>
+						<td class="cedula4">Renta</td>
+						<td class="cedula4">3000</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4">3000</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+					</tr>
+					<tr>
+						<td class="cedula4">Servicio de energia electrica</td>
+						<td class="cedula4">(1500)</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4">(1500)</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+					</tr>
+					<tr>
+						<td class="cedula4">Renta</td>
+						<td class="cedula4">(3000)</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4">(3000)</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+					</tr>
+					<tr>
+						<td class="cedula4">Servicio de energia electrica</td>
+						<td class="cedula4">1500</td>
+						<td class="cedula4">69.10</td>
+						<td class="cedula4">73.18</td>
+						<td class="cedula4">120</td>
+						<td class="cedula4">32.45</td>
+						<td class="cedula4">425.09</td>
+						<td class="cedula4">295.82</td>
+						<td class="cedula4">258</td>
+						<td class="cedula4">226.36</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Renta</td>
+						<td class="cedula4">3000</td>
+						<td class="cedula4">260</td>
+						<td class="cedula4">300</td>
+						<td class="cedula4">340</td>
+						<td class="cedula4">100</td>
+						<td class="cedula4">660</td>
+						<td class="cedula4">440</td>
+						<td class="cedula4">400</td>
+						<td class="cedula4">500</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Total de direccionamiento secundario</td>
+						<td class="cedula4">54500</td>
+						<td class="cedula4">9329.10</td>
+						<td class="cedula4">5373.18</td>
+						<td class="cedula4">9460</td>
+						<td class="cedula4">10132.45</td>
+						<td class="cedula4">6085.09</td>
+						<td class="cedula4">5235.82</td>
+						<td class="cedula4">4658</td>
+						<td class="cedula4">4226.36</td>
+					</tr>
+				</table>
+				<p>El servicio de comedor prepara los alimentos para todo el personal de la planta fabril. Por lo tanto, el servicio está disponible para todos los empleados y el costo acumulado de 9 329.10 pesos que reporta el direccionamiento primario debe aplicarse de acuerdo con el total de personas adscritas a cada centro de costos. Personal adscrito por centro de costos:</p>
+				<table>
+					<tr>
+						<td class="factor" colspan="3">Factor de aplicacion</td>
+					</tr>
+					<tr>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">Costo acumulado ccs 125252</td>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">9329.10</td>
+						<td class="operacion" rowspan="2">424.05</td>
+					</tr> 
+					<tr>
+						<td class="operacion">Número de personas</td>
+						<td class="operacion">22</td>
+					</tr>
+				</table>
+				<br>
+				<table>
+					 <tr>
+					 	<td class="cedula1">Centro de costos</td>
+					 	<td class="cedula1">Superficie ocupada</td>
+					 	<td class="cedula1">factor</td>
+					 	<td class="cedula1">aplicación de renta</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">131212</td>
+					 	<td class="cedula1">3</td>
+					 	<td class="cedula1">424.05</td>
+					 	<td class="cedula1">1272.15</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">136232</td>
+					 	<td class="cedula1">2</td>
+					 	<td class="cedula1">424.05</td>
+					 	<td class="cedula1">848.10</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134002</td>
+					 	<td class="cedula1">6</td>
+					 	<td class="cedula1">424.05</td>
+					 	<td class="cedula1">2544.30</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134013</td>
+					 	<td class="cedula1">2</td>
+					 	<td class="cedula1">424.05</td>
+					 	<td class="cedula1">848.10</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134023</td>
+					 	<td class="cedula1">4</td>
+					 	<td class="cedula1">424.05</td>
+					 	<td class="cedula1">1696.20</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134033</td>
+					 	<td class="cedula1">3</td>
+					 	<td class="cedula1">424.05</td>
+					 	<td class="cedula1">1272.15</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134043</td>
+					 	<td class="cedula1">2</td>
+					 	<td class="cedula1">424.05</td>
+					 	<td class="cedula1">848.10</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">total</td>
+					 	<td class="cedula1">22</td>
+					 	<td class="cedula1">424.05</td>
+					 	<td class="cedula1">9329.10</td>
+					 </tr>
+				</table>
+				<br>
+				<p>
+					El departamento de almacén de materias primas dio servicio al CCS 136232 y a los CCP 134013, 134023, 134033 y 134043. Por lo tanto, el costo acumulado de 6 645.33 pesos (5 373.18 pesos de direccionamiento primario más 1 272.15 pesos por servicio de comedor que tiene) debe aplicarse de acuerdo con la cantidad de materia prima consumida en cada uno de ellos, según las requisiciones de materiales.
+				</p>
+				<br>
+				<table>
+					<tr>
+						<td class="factor" colspan="3">Factor de aplicacion</td>
+					</tr>
+					<tr>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">Costo acumulado ccs 131212</td>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">6645.33</td>
+						<td class="operacion" rowspan="2">0.03292</td>
+					</tr> 
+					<tr>
+						<td class="operacion">Materia prima consumida</td>
+						<td class="operacion">201875.00</td>
+					</tr>
+				</table>
+				<table>
+					 <tr>
+					 	<td class="cedula1">Centro de costos</td>
+					 	<td class="cedula1">Superficie ocupada</td>
+					 	<td class="cedula1">factor</td>
+					 	<td class="cedula1">aplicación de renta</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">136232</td>
+					 	<td class="cedula1">500</td>
+					 	<td class="cedula1">0.03292</td>
+					 	<td class="cedula1">16.46</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134002</td>
+					 	<td class="cedula1">0</td>
+					 	<td class="cedula1">0.03292</td>
+					 	<td class="cedula1">0</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134013</td>
+					 	<td class="cedula1">121000</td>
+					 	<td class="cedula1">0.03292</td>
+					 	<td class="cedula1">3983.08</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134023</td>
+					 	<td class="cedula1">4000</td>
+					 	<td class="cedula1">0.03292</td>
+					 	<td class="cedula1">131.67</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134033</td>
+					 	<td class="cedula1">52000</td>
+					 	<td class="cedula1">0.03292</td>
+					 	<td class="cedula1">1711.74</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">134043</td>
+					 	<td class="cedula1">24375</td>
+					 	<td class="cedula1">0.03292</td>
+					 	<td class="cedula1">802.38</td>
+					 </tr>
+					 <tr>
+					 	<td class="cedula1">total</td>
+					 	<td class="cedula1">201875</td>
+					 	<td class="cedula1">0.03292</td>
+					 	<td class="cedula1">6645.33</td>
+					 </tr>
+				</table>
+				<br>
+				<p>
+					El departamento de soldadura dio servicio a los CCP 134013, 134023, 134033 y 134043. Por lo tanto, el costo acumulado de 10 324.56 pesos (9 460.00 de direccionamiento primario más 848.10 por servicio de comedor y 16.46 por servicios de almacén de materias primas) debe aplicarse de acuerdo con las horas-hombre de servicio que reportan las órdenes de direccionamiento (OD) 03 mantenimiento preventivo y 04 mantenimiento correctivo, durante el mes de marzo de 20XX, ver ilustración 4.11. Es importante mencionar que cuando existan varios centros de costo de mantenimiento, deberemos determinar el costo hora-hombre de servicio de cada uno de ellos que, en nuestro ejemplo, sería:
+				</p>
+				<ol>
+					<li>136232 Departamento de soldadura</li>
+					<li>Número de personas 2</li>
+					<li>Jornada laboral por día 8 horas</li>
+					<li>Horas-hombre de servicio disponibles, por día laborable 16</li>
+					<li>Días laborables, marzo 20XX 22 días</li>
+					<li>Horas-hombre de servicio disponibles, marzo 20XX 352</li>
+					<li>Costo acumulado CCS 136232, marzo 20XX $10 324.56</li>
+					<li>Costo hora-hombre de servicio, CCS 136232, marzo de 20XX $29.33</li>
+				</ol>
+				<p>
+					La gerencia de producción tiene bajo su responsabilidad los CCP 134013, 134023, 134033 y 134043. Por lo tanto, el costo de 12 676.75 pesos (10 132.45 de direccionamiento primario más 2 544.30 por servicio de comedor que tiene) debe aplicarse en este ejemplo por partes iguales, siendo:
+				</p>
+				<table>
+					<tr>
+						<td class="cedula1"></td>
+						<td class="cedula1" colspan="3">base de aplicación hora hombre</td>
+						<td class="cedula1"></td>
+						<td class="cedula1"></td>
+					</tr>
+					<tr>
+						<td class="cedula2">Centro de costos</td>
+						<td class="cedula2">OD tipo 3</td>
+						<td class="cedula2">OD tipo 4</td>
+						<td class="cedula2">OD tipo H-H</td>
+						<td class="cedula2">Costo hora-hombre de servicio</td>
+						<td class="cedula2">Aplicación CCS 136232</td>
+					</tr>
+					<tr>
+						<td class="cedula4">134013</td>
+						<td class="cedula4">70</td>
+						<td class="cedula4">0</td>
+						<td class="cedula4">70</td>
+						<td class="cedula4">29.33</td>
+						<td class="cedula4">2053.18</td>
+					</tr>
+					<tr>
+						<td class="cedula4">134023</td>
+						<td class="cedula4">128</td>
+						<td class="cedula4">32</td>
+						<td class="cedula4">160</td>
+						<td class="cedula4">29.33</td>
+						<td class="cedula4">4692.98</td>
+					</tr>
+					<tr>
+						<td class="cedula4">134033</td>
+						<td class="cedula4">93</td>
+						<td class="cedula4">0</td>
+						<td class="cedula4">93</td>
+						<td class="cedula4">29.33</td>
+						<td class="cedula4">2727.80</td>
+					</tr>
+					<tr>
+						<td class="cedula4">134043</td>
+						<td class="cedula4">29</td>
+						<td class="cedula4">0</td>
+						<td class="cedula4">29</td>
+						<td class="cedula4">29.33</td>
+						<td class="cedula4">850.60</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Total</td>
+						<td class="cedula4">320</td>
+						<td class="cedula4">32</td>
+						<td class="cedula4">352</td>
+						<td class="cedula4">29.33</td>
+						<td class="cedula4">10324.56</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td class="cedula1">Centro de costos</td>
+						<td class="cedula1">Aplicación CCS 134002</td>
+					</tr>
+					<tr>
+						<td class="cedula4">134013</td>
+						<td class="cedula4">3169.19</td>
+					</tr>
+					<tr>
+						<td class="cedula4">134023</td>
+						<td class="cedula4">3169.19</td>
+					</tr>
+					<tr>
+						<td class="cedula4">134033</td>
+						<td class="cedula4">3169.19</td>
+					</tr>
+					<tr>
+						<td class="cedula4">134043</td>
+						<td class="cedula4">3169.19</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td class="cedula1" colspan="10">Direccionamiento secundario Aplicación de los costos acumulados en los CCS hacia los CCP, correspondientes al mes de marzo 20XX (pesos)</td>
+					</tr>
+					<tr>
+						<td class="cedula2" colspan="2"></td>
+						<td class="cedula2" colspan="8">Centro de costos</td>
+					</tr>
+					<tr>
+						<td class="cedula3" colspan="2"></td>
+						<td class="cedula3" colspan="4">servicio</td>
+						<td class="cedula3" colspan="4">productivo</td>
+					</tr>
+					<tr>
+						<td class="cedula4">cuenta</td>
+						<td class="cedula4">total</td>
+						<td class="cedula4">121252</td>
+						<td class="cedula4">131212</td>
+						<td class="cedula4">126232</td>
+						<td class="cedula4">134002</td>
+						<td class="cedula4">134013</td>
+						<td class="cedula4">134023</td>
+						<td class="cedula4">134033</td>
+						<td class="cedula4">134043</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Total direccionamiento primario</td>
+						<td class="cedula4">54500</td>
+						<td class="cedula4">9329.10</td>
+						<td class="cedula4">5373.18</td>
+						<td class="cedula4">9460</td>
+						<td class="cedula4">10132.45</td>
+						<td class="cedula4">6085.09</td>
+						<td class="cedula4">5235.82</td>
+						<td class="cedula4">4658</td>
+						<td class="cedula4">4226.36</td>
+					</tr>
+					<tr>
+						<td class="cedula4">125252 Servicio de comedor</td>
+						<td class="cedula4">0.00</td>
+						<td class="cedula4">(9329.10)</td>
+						<td class="cedula4">1272.15</td>
+						<td class="cedula4">848.10</td>
+						<td class="cedula4">2544.30</td>
+						<td class="cedula4">848.10</td>
+						<td class="cedula4">1696.20</td>
+						<td class="cedula4">1272.15</td>
+						<td class="cedula4">848.10</td>
+					</tr>
+					<tr>
+						<td class="cedula4">131212 Almacen de materia prima</td>
+						<td class="cedula4">0.00</td>
+						<td class="cedula4"></td>
+						<td class="cedula4">(6645.33)</td>
+						<td class="cedula4">16.46</td>
+						<td class="cedula4"></td>
+						<td class="cedula4">3983.08</td>
+						<td class="cedula4">131.67</td>
+						<td class="cedula4">1711.74</td>
+						<td class="cedula4">802.38</td>
+					</tr>
+					<tr>
+						<td class="cedula4">136232 Servicio de soldadura</td>
+						<td class="cedula4">0.00</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4">(10324.56)</td>
+						<td class="cedula4"></td>
+						<td class="cedula4">2053.18</td>
+						<td class="cedula4">4692.98</td>
+						<td class="cedula4">2727.80</td>
+						<td class="cedula4">850.60</td>
+					</tr>
+					<tr>
+						<td class="cedula4">134002 Gerencia de elaboración</td>
+						<td class="cedula4">0.00</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4">(12676.75)</td>
+						<td class="cedula4">3169.19</td>
+						<td class="cedula4">3169.19</td>
+						<td class="cedula4">3169.19</td>
+						<td class="cedula4">3169.18</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Total de direccionamiento secundario</td>
+						<td class="cedula4">54500</td>
+						<td class="cedula4">0.00</td>
+						<td class="cedula4">0.00</td>
+						<td class="cedula4">0.00</td>
+						<td class="cedula4">0.00</td>
+						<td class="cedula4">16138.64</td>
+						<td class="cedula4">14925.86</td>
+						<td class="cedula4">13538.88</td>
+						<td class="cedula4">9896.62</td>
+					</tr>
+				</table>
+				<p>
+					Ejercicio 3 Vamos a continuar con el ejercicio que hemos venido desarrollando y tomaremos los cargos indirectos acumulados del mes de marzo de 20XX en cada centro de costos productivo; es decir, del direccionamiento secundario.
+				</p>
+				<p>
+					Para aplicar los cargos indirectos acumulados del mes de marzo de 20XX en los CCP, hacia los artículos transformados en cada uno de ellos, consideremos las órdenes de producción que se trabajaron en dichos centros productivos durante ese periodo.
+				</p>
+				<p>
+					Al concluir el direccionamiento fi nal de acuerdo con las bases elegidas, los cargos indirectos acumulados del mes de marzo de 20XX se encuentran direccionadosa las órdenes de producción que se trabajaron durante ese periodo en los centros productivos. Por lo tanto, la suma de los cargos indirectos acumulados en cada orden de producción (Σ78 + Σ79 + Σ80 + Σ81 + Σ82 + Σ83), deberá ser la misma que reporta el total de direccionamiento secundario de 54 500 pesos, que es la misma cantidad que reporta el direccionamiento de origen, antes de iniciar los direccionamientos primario, secundario y final.
+				</p>
+				<table>
+					<tr>
+						<td class="cedula1" rowspan="2">Centro de costos de producción</td>
+						<td class="cedula1" rowspan="2">Direccionamiento secundario</td>
+						<td class="cedula1" colspan="6">Orden de producción</td>
+					</tr>
+					<tr>
+						<td class="cedula1">78</td>
+						<td class="cedula1">79</td>
+						<td class="cedula1">80</td>
+						<td class="cedula1">81</td>
+						<td class="cedula1">82</td>
+						<td class="cedula1">83</td>
+					</tr>
+					<tr>
+						<td class="cedula4">134013</td>
+						<td class="cedula4">16138.64</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4">+</td>
+						<td class="cedula4">+</td>
+						<td class="cedula4">+</td>
+					</tr>
+					<tr>
+						<td class="cedula4">134023</td>
+						<td class="cedula4">14925.86</td>
+						<td class="cedula4">+</td>
+						<td class="cedula4">+</td>
+						<td class="cedula4"></td>
+						<td class="cedula4">+</td>
+						<td class="cedula4">+</td>
+						<td class="cedula4"></td>
+					</tr>
+					<tr>
+						<td class="cedula4">134033</td>
+						<td class="cedula4">13538.88</td>
+						<td class="cedula4">+</td>
+						<td class="cedula4">+</td>
+						<td class="cedula4">+</td>
+						<td class="cedula4"></td>
+						<td class="cedula4">+</td>
+						<td class="cedula4"></td>
+					</tr>
+					<tr>
+						<td class="cedula4">134043</td>
+						<td class="cedula4">9896.62</td>
+						<td class="cedula4"></td>
+						<td class="cedula4">+</td>
+						<td class="cedula4"></td>
+						<td class="cedula4"></td>
+						<td class="cedula4">+</td>
+						<td class="cedula4"></td>
+					</tr>
+					<tr>
+						<td class="cedula4">Total</td>
+						<td class="cedula4">54500</td>
+						<td class="cedula4">78</td>
+						<td class="cedula4">79</td>
+						<td class="cedula4">80</td>
+						<td class="cedula4">81</td>
+						<td class="cedula4">82</td>
+						<td class="cedula4">83</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td class="cedula1" rowspan="2">Concepto</td>
+						<td class="cedula1" rowspan="2">Total</td>
+						<td class="cedula1" colspan="3">Orden de producción</td>
+					</tr>
+					<tr>
+						<td class="cedula1">81</td>
+						<td class="cedula1">82</td>
+						<td class="cedula1">83</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Producto elaborado</td>
+						<td class="cedula4"></td>
+						<td class="cedula4">A</td>
+						<td class="cedula4">B</td>
+						<td class="cedula4">C</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Volumen (unidades)</td>
+						<td class="cedula4">1060</td>
+						<td class="cedula4">1000</td>
+						<td class="cedula4">50</td>
+						<td class="cedula4">10</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Costo de materia prima utilizada</td>
+						<td class="cedula4">120500</td>
+						<td class="cedula4">98500</td>
+						<td class="cedula4">12500</td>
+						<td class="cedula4">9500</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Costo de mano de obra directa empleada</td>
+						<td class="cedula4">42000</td>
+						<td class="cedula4">20000</td>
+						<td class="cedula4">2500</td>
+						<td class="cedula4">19500</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Costo primo</td>
+						<td class="cedula4">162500</td>
+						<td class="cedula4">118500</td>
+						<td class="cedula4">15000</td>
+						<td class="cedula4">29000</td>
+					</tr>
+				</table>
+				<br>
+				<table>
+					<tr>
+						<td class="factor" colspan="3">Materia prima directa</td>
+					</tr>
+					<tr>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">Total cargos indirectos</td>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">16138.64</td>
+						<td class="operacion" rowspan="2">0.13393</td>
+					</tr> 
+					<tr>
+						<td class="operacion">Costo MPD</td>
+						<td class="operacion">120500</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td class="factor" colspan="3">Mano de obra directa</td>
+					</tr>
+					<tr>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">Total cargos indirectos</td>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">16138.64</td>
+						<td class="operacion" rowspan="2">0.38425</td>
+					</tr> 
+					<tr>
+						<td class="operacion">Costo MOD</td>
+						<td class="operacion">42000</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td class="factor" colspan="3">Costo primo</td>
+					</tr>
+					<tr>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">Total cargos indirectos</td>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">16138.64</td>
+						<td class="operacion" rowspan="2">0.09931</td>
+					</tr> 
+					<tr>
+						<td class="operacion">Costo primo</td>
+						<td class="operacion">162500</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td class="factor" colspan="3">Volumen (unidades)</td>
+					</tr>
+					<tr>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">Total cargos indirectos</td>
+						<td class="operacion" style="border-bottom-style: solid; border-color: #ea4335;">16138.64</td>
+						<td class="operacion" rowspan="2">15.22513</td>
+					</tr> 
+					<tr>
+						<td class="operacion">Volumen</td>
+						<td class="operacion">1060</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td class="cedula1"></td>
+						<td class="cedula1"></td>
+						<td class="cedula1"></td>
+						<td class="cedula1" colspan="4">Cargos indirectos</td>
+					</tr>
+					<tr>
+						<td class="cedula1" colspan="2">Base de aplicación</td>
+						<td class="cedula1"></td>
+						<td class="cedula1"></td>
+						<td class="cedula1" colspan="3">Orden de producción</td>
+					</tr>
+					<tr>
+						<td class="cedula1">Concepto</td>
+						<td class="cedula1">Cantidad</td>
+						<td class="cedula1">Factor</td>
+						<td class="cedula1">Total</td>
+						<td class="cedula1">81</td>
+						<td class="cedula1">82</td>
+						<td class="cedula1">83</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Costo de materia prima directa utilizada</td>
+						<td class="cedula4">120500</td>
+						<td class="cedula4">0.13393</td>
+						<td class="cedula4">16138.64</td>
+						<td class="cedula4">13192.17</td>
+						<td class="cedula4">1674.13</td>
+						<td class="cedula4">1272.34</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Costo de mano de obra directa empleada</td>
+						<td class="cedula4">42000</td>
+						<td class="cedula4">0.38425</td>
+						<td class="cedula4">16138.64</td>
+						<td class="cedula4">7685.07</td>
+						<td class="cedula4">960.63</td>
+						<td class="cedula4">7492.94</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Costo primo</td>
+						<td class="cedula4">162500</td>
+						<td class="cedula4">0.09931</td>
+						<td class="cedula4">16138.64</td>
+						<td class="cedula4">11768.79</td>
+						<td class="cedula4">1489.72</td>
+						<td class="cedula4">2880.13</td>
+					</tr>
+					<tr>
+						<td class="cedula4">Volumen (unidades)</td>
+						<td class="cedula4">1060</td>
+						<td class="cedula4">15.22513</td>
+						<td class="cedula4">16138.64</td>
+						<td class="cedula4">15225.13</td>
+						<td class="cedula4">761.26</td>
+						<td class="cedula4">152.25</td>
+					</tr>
+				</table>
+			</section>
+
+			<aside>
+				<h1>Ejercicios</h1>
+				<ul type="none">
+					<li><a href="index.html"><button class="button">Teoria (ordenes)</button></a></li>
+					<li><a href="p1.html"><button class="button">Ejercicio 1</button></a></li>
+					<li><a href="p2.html"><button class="button">Ejercicio 2</button></a></li>
+					<li><a href="p3.html"><button class="button">Ejercicio 3</button></a></li>
+					<li><a href="p4.html"><button class="button">Ejercicio 4</button></a></li>
+					<li><a href="r0.html"><button class="button">Teoria (procesos)</button></a></li>
+					<li><a href="p5.html"><button class="button">Ejercicio 5</button></a></li>
+					<li><a href="p6.html"><button class="button">Ejercicio 6</button></a></li>
+					<li><a href="p7.html"><button class="button">Ejercicio 7</button></a></li>
+					<li><a href="p8.html"><button class="button">Ejercicio 8</button></a></li>
+					<li><a href="r1.html"><button class="button">Teoria (direc)</button></a></li>
+					<li><a href="p9.html"><button class="button">Ejercicio 9</button></a></li>
+					<li><a href="p10.html"><button class="button">Ejercicio 10</button></a></li>
+				</ul>
+			</aside>
+
+			<footer>
+				<p>
+					Nombres:
+					<li>Hernandez Alistac Cesar Alejandro</li>
+					<li>Mejia Morales Marco Uriel</li>
+					<li>Salinas Dominguez Jocelyn</li>
+				</p>
+			</footer>
+		</div>
+</body>
+</html>
